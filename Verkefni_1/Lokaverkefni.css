@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 6px solid black;
+    background-color: darkcyan;
+    font-size: x-large;
+}
+
+.fyrirsogn{
+    font-style: Arial, Helvetica, sans-serif;
+    color: navy;
+    text-align: center;
+}
+
+.undirfyrirsogn{
+    font-style: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 71);
+}
+
+.sagnir{
+    font-style: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+
+
+.elvis{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: rgb(204, 0, 0);
+}
+
+.center{
+    text-align: center;
+}
+
+.blar{
+    color: navy;
+}
+
+.raudur{
+    color: darkred;
+}
+
+.grænn{
+    color: darkgreen;
+}
+
+a:visited{
+    color: black;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: gray;
+}
