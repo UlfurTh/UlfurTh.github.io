@@ -1,9 +1,0 @@
-body{
-    display: grid;
-    grid-template-areas:
-    "haus haus haus haus haus"
-    "haus haus haus haus haus"
-    "val adal adal adal adal"
-    "vinstri vinstri haegri haegri fotur";
-    font-family: 'Trebuchet MS', sans-serif;
-}
