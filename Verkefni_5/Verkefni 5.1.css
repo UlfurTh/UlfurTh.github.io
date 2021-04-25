@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Playfair+Display&family=Roboto+Mono:wght@500&display=swap');
+
+@media screen and (min-width: 37.5em){
+
+}
+header, nav, aside, article, main, footer{
+    border: 0px solid black;
+    margin: 5px;
+}
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    background: linear-gradient(to right,rgb(224, 136, 3), rgb(154, 92, 0));
+    font-family: Open Sans Condensed;
+    font-size: 20px;
+}
+.midja{
+    background: linear-gradient(to right,rgb(50, 50, 50),black);
+}
+.midjun{
+    width: 60%;
+    margin: 0 auto;
+}
+.pila{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+
+    height: 50px;
+    width: 50px;
+    border: black 2px solid;
+    border-radius: 50%;
+
+    text-align: center;
+    line-height: 50px;
+
+    font-size: 1.5em;
+    background-color:white ;
+    color: black;
+}
+.hvitur{
+    color: white;
+    font-family: Playfair Display;
+    margin: 20px;
+    padding: 20px;
+}
+
+.haus{
+    grid-area: haus;
+}
+.valmynd{
+    grid-area: val;
+}
+.adal{
+    grid-area: adal;
+}
+.haegri{
+    grid-area: haegri;
+}
+.fotur{
+    grid-area: fotur;
+}
+.vinstri{
+    grid-area: vinstris;
+}

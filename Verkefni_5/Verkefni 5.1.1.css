@@ -1,0 +1,7 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "haus haus val"
+    "adal adal adal"
+    "vinstri fotur haegri";
+}
