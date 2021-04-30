@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;600&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Antonio";
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.fyrirsogn{
+    font-family: "Antonio";
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 100px;
+}
+.hnappur{
+    border: 0.5px solid whitesmoke;
+    background: rgb(5, 5, 5);
+    font-family: Krona One;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    color: white;
+}
+
+.efri{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(34, 34, 34) , rgb(23, 23, 23));
+}
+
+.neðri{
+    background: linear-gradient(rgb(34, 34, 34) , rgb(0, 0, 0));
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "haus haus"
+    "adal vinstri";
+}
+.haus{
+    grid-area: haus;
+    padding: 20px;
+}
+.adal{
+    grid-area: adal;
+    padding: 20px;
+}
+.vinstri{
+    grid-area: vinstri;
+    padding: 20px;
+}
