@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+.body{
+    font-weight: bold;
+    font-family: Space Mono;
+}
+
+.myndir{
+    width: 50%;
+    height: autos;
+}
+.fyrirsogn{
+    font-family: 'Space Mono';
+}
+.texti{
+    font-family: Space Mono;
+}

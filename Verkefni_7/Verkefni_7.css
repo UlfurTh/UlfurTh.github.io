@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+iframe{
+    border-radius: 10px;
+    border: solid black 5px;
+    max-width: 100%;
+}
+img{
+    border-radius: 10px;
+    border: solid black 5px;
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font-weight: bold;
+    font-family: Space Mono;
+    background: linear-gradient(to right, #52BBB7 , #F16764 );
+}
+.fyrirsogn{
+    font-family: Space Mono;
+    text-align: center;
+    padding: 20px;
+    margin: 25px;
+    color: rgb(30, 30, 30);
+    font-size: 75px;
+}
+.texti{
+    font-family: Space Mono;
+}
+.menu{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.265);
+    padding: 10px;
+}
+.adal{
+    padding: 50px;
+}
+.pila{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+
+    height: 50px;
+    width: 50px;
+    border: black 2px solid;
+    border-radius: 50%;
+
+    text-align: center;
+    line-height: 50px;
+
+    font-size: 1.5em;
+    background-color:rgb(164, 0, 0) ;
+    color: rgb(255, 255, 255);
+}
+.row {
+    margin-top: 100px;
+    display: flex;
+}
+.myndir{
+    width: 150%;
+}  
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.botn{
+    text-align: center;
+}
